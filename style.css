@@ -1,0 +1,434 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busy Generic: The Base</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="busy_base2.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    
+    <div class=wrapper>
+  
+  
+    <div class=sidebar>
+    <div class="sidebar-image"><div class=inner><img src="/bluesun.png"></div></div>
+    <div class=box><div class=inner><p>Sidebar lorem ipsum dolor sit amet.</p><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p></div></div>
+    </div>
+    
+    
+    <div class=main-wrapper> 
+    
+    <div class=title>
+        <div class=box><div class=inner><h2>Welcome To My Website!</h2></div></div>
+      </div>
+    
+      <div class=links>
+        <div class=box><div class=inner> <ul>
+             <li><a href="/testdirectory.html">Directory</a></li>
+             <li><a href="busy_base2.html">Base Style</a></li>
+             <li><a href="busy_base2_skin1.html">Skin 1</a></li>
+             <li><a href="busy_base2_skin2.html">Skin 2</a></li>
+             <li class=last><a href="busy_base2_skin3.html">Skin 3</a></li>
+           </ul></div>
+      </div></div>
+      
+      <div class="main single-column">
+      <div class=box><div class=inner>
+      <p>Welcome to the text of a style I have not named yet. This is the base version of the code: all skin example pages for it use the same HTML as this page (minus a few paragraphs from this text box, and sometimes plus one or two lines adding information about fonts and stuff.) Check them out in the navigation bar links!</p>
+            <P>This box is single-column, but two columns is also possible.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+            <p>Here is a wide image to make sure images don't overflow.</p>
+            <img src="/xamag_skaia_3_optimized.png">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi  architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+         </div></div></div>
+      
+      <div class=main>
+      <div class=box><div class=inner>    
+      <p>This section has two columns!</p>
+          <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
+
+          <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+
+           <p>Here's how you can add an image:</p>
+          <img src="/neocities.png">
+
+          <p>Here's how to make a list:</p>
+
+           <ul>
+             <li>First thing</li>
+             <li>Second thing</li>
+             <li>Third thing</li>
+           </ul>
+
+            <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi   architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+         </div></div>
+         <div class=box><div class=inner>
+           <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+         </div></div>
+         <div class=box><div class=inner>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div></div>
+      </div>
+    </div>
+    
+    <div class=footer>
+      <div class=box><div class=inner>This is a footer. Base stylesheet by EGGRAMEN, 2021.</div></div>
+    </div>
+    
+    </div>
+    
+  </body>
+</html>
+
+body {
+  background-image: url("pattern 503.gif");
+  color: black;
+  font-family: Verdana;
+  cursor: url("laincursor.gif"), auto;
+}
+
+        <style>
+            /* user styles */
+
+            /* styles are what change the color and sizes of stuff on your site. */
+
+            /* these are variables that are being used in the code
+    these tended to confuse some people, so I only kept 
+    the images as variables */
+
+            :root {
+                --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
+                --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+
+                /* colors */
+                --content: #43256E;
+            }
+
+            /* if you have the URL of a font, you can set it below */
+            
+            /* feel free to delete this if it's not your vibe */
+
+            /* this seems like a lot for just one font and I would have to agree 
+    but I wanted to include an example of how to include a custom font.
+    If you download a font file you can upload it onto your Neocities
+    and then link it! Many fonts have separate files for each style
+    (bold, italic, etc. T_T) which is why there are so many!
+    
+    */
+    /*     @font-face {
+    font-family: "PIXEL Arial 14";
+    src: url("pixel-arial-14.otf") format("opentype"); 
+}
+  */
+
+            
+
+            body {
+                font-family: 'Pixel Arial 14', pixel-arial-14;
+                margin: 0;
+                background-color: #ffffff;
+                /* you can delete the line below if you'd prefer to not use an image */
+                background-size: 65px;
+                color: rgb(255, 255, 255);
+                background-image: url('pattern%20503.gif');
+                
+            }
+p {
+    
+  margin-right:100px;
+  margin-left: 100px;
+}
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* below this line is CSS for the layout */
+
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
+
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            .container {
+                max-width: 1000px;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                /* this centers the entire page */
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                text-align:center;
+                
+                
+            }
+.container .box {
+                display: flex;
+                 flex-direction: row;
+                 justify-content: space-between;
+                 align-items: center;
+            } 
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    
+}
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    
+}
+
+
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #ffffff;
+                
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+            
+            #container a:hover {
+                color: #ff0000;
+                
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+
+            #header {
+                width: 100%;
+                background-color: #ffffff;
+                /* header color here! */
+                height: 150px;
+                /* this is only for a background image! */
+                /* if you want to put images IN the header, 
+      you can add them directly to the <div id="header"></div> element! */
+                background-image: var(--header-image);
+                background-size: 100%;
+            }
+
+            /* navigation section!! */
+            #navbar {
+                height: 40px;
+                background-color: #2a2a2a;
+                /* navbar color */
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            /* navigation links*/
+            #navbar li a {
+                color: #ffffff;
+                /* navbar text color */
+                font-weight: 800;
+                text-decoration: none;
+                /* this removes the underline */
+            }
+
+            /* navigation link when a link is hovered over */
+            #navbar li a:hover {
+                color: #ffffff;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            /* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+            aside {
+                background-color: #000000;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+                border-style:solid;
+                border-width:3px;
+                border-color: #ffa2d1;
+                /* this makes the sidebar text slightly smaller */
+            }
+
+
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+                background-color: #101010;
+                flex: 1;
+                padding: 20px;
+                border-style:solid;
+                border-width:3px;
+                border-color: #ffa2d1;
+                order: 2;
+                
+            }
+
+            /* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
+
+             #leftSidebar {
+                order: 1;
+                 position: fixed;
+                 left:220;
+            }
+
+            #rightSidebar {
+                order: 3;
+                position: fixed;
+                 right:220  ;
+            }
+
+            footer {`
+                background-color: #1a1819;
+                /* background color for footer */
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+                /* this centers the footer text */
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #ffffff;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #ffffff;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+             
+
+            /* CSS for extras */
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
+
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 1000px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                    border-style:solid;
+                border-width:3px;
+                border-color: #ffa2d1;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 2;
+                    
+                }
+
+                #leftSidebar {
+                    order: 3;
+                }
+
+                #rightSidebar {
+                    order: 4;
+                }
+                
+                #shoutbox {
+                    order: 1;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+            
+            body {
+                cursor: url("laincursor.gif"), auto;
+            }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  ;
+}
+            
+            
+    
+        </style>
